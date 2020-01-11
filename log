@@ -1,0 +1,74 @@
+2020-01-11T16:04:54.561208+00:00 app[api]: Release v1 created by user wako1982133@hotmail.com
+2020-01-11T16:04:54.561208+00:00 app[api]: Initial release by user wako1982133@hotmail.com
+2020-01-11T16:04:54.663695+00:00 app[api]: Enable Logplex by user wako1982133@hotmail.com
+2020-01-11T16:04:54.663695+00:00 app[api]: Release v2 created by user wako1982133@hotmail.com
+2020-01-11T16:05:05.237139+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=developerjc.herokuapp.com request_id=3dc9d53a-1310-4a25-8729-87823c9afd84 fwd="187.189.102.143" dyno= connect= service= status=502 bytes= protocol=https
+2020-01-11T16:05:05.425142+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=developerjc.herokuapp.com request_id=1700bcfa-b900-43b9-82f1-577e55187336 fwd="187.189.102.143" dyno= connect= service= status=502 bytes= protocol=https
+2020-01-11T16:10:20.000000+00:00 app[api]: Build started by user wako1982133@hotmail.com
+2020-01-11T16:10:58.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/2059e616-7c78-4635-b02d-205f8ab2660f/activity/builds/fe8105cf-5089-4c3e-bddd-b70cb3b405da
+2020-01-11T16:12:27.559845+00:00 app[api]: Release v3 created by user wako1982133@hotmail.com
+2020-01-11T16:12:27.559845+00:00 app[api]: Set DISABLE_COLLECTSTATIC config vars by user wako1982133@hotmail.com
+2020-01-11T16:14:08.000000+00:00 app[api]: Build started by user wako1982133@hotmail.com
+2020-01-11T16:15:02.881020+00:00 app[api]: Running release v4 commands by user wako1982133@hotmail.com
+2020-01-11T16:15:02.881020+00:00 app[api]: Attach DATABASE (@ref:postgresql-flat-91513) by user wako1982133@hotmail.com
+2020-01-11T16:15:02.893891+00:00 app[api]: @ref:postgresql-flat-91513 completed provisioning, setting DATABASE_URL. by user wako1982133@hotmail.com
+2020-01-11T16:15:02.893891+00:00 app[api]: Release v5 created by user wako1982133@hotmail.com
+2020-01-11T16:15:03.213553+00:00 app[api]: Deploy 7bb10ddf by user wako1982133@hotmail.com
+2020-01-11T16:15:03.213553+00:00 app[api]: Release v6 created by user wako1982133@hotmail.com
+2020-01-11T16:15:13.000000+00:00 app[api]: Build succeeded
+2020-01-11T16:39:31.000000+00:00 app[api]: Build started by user wako1982133@hotmail.com
+2020-01-11T16:40:24.090715+00:00 app[api]: Deploy fe6943fd by user wako1982133@hotmail.com
+2020-01-11T16:40:24.090715+00:00 app[api]: Release v7 created by user wako1982133@hotmail.com
+2020-01-11T16:40:33.000000+00:00 app[api]: Build succeeded
+2020-01-11T16:41:24.783501+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=developerjc.herokuapp.com request_id=396d7fe4-51c9-4921-9127-73268f6b7b30 fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T16:41:25.725695+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=developerjc.herokuapp.com request_id=52efabd1-c533-43f1-8fc9-4f64f6289a19 fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T16:44:00.610810+00:00 app[api]: Starting process with command `py manage.py makemigrations` by user wako1982133@hotmail.com
+2020-01-11T16:44:06.475176+00:00 heroku[run.5179]: State changed from starting to up
+2020-01-11T16:44:06.619119+00:00 heroku[run.5179]: Awaiting client
+2020-01-11T16:44:06.652241+00:00 heroku[run.5179]: Starting process with command `py manage.py makemigrations`
+2020-01-11T16:44:11.361164+00:00 heroku[run.5179]: State changed from up to complete
+2020-01-11T16:44:11.342410+00:00 heroku[run.5179]: Process exited with status 127
+2020-01-11T16:44:55.418470+00:00 app[api]: Starting process with command `phyton manage.py makemigrations` by user wako1982133@hotmail.com
+2020-01-11T16:45:01.311209+00:00 heroku[run.2691]: State changed from starting to up
+2020-01-11T16:45:05.337272+00:00 heroku[run.2691]: Process exited with status 127
+2020-01-11T16:45:05.352963+00:00 heroku[run.2691]: State changed from up to complete
+2020-01-11T16:46:08.023860+00:00 app[api]: Starting process with command `py manage.py makemigrations` by user wako1982133@hotmail.com
+2020-01-11T16:46:14.368008+00:00 heroku[run.2387]: State changed from starting to up
+2020-01-11T16:46:14.332234+00:00 heroku[run.2387]: Awaiting client
+2020-01-11T16:46:14.376316+00:00 heroku[run.2387]: Starting process with command `py manage.py makemigrations`
+2020-01-11T16:46:18.729569+00:00 heroku[run.2387]: State changed from up to complete
+2020-01-11T16:46:18.711164+00:00 heroku[run.2387]: Process exited with status 127
+2020-01-11T16:46:34.467035+00:00 app[api]: Starting process with command `py manage.py migrate` by user wako1982133@hotmail.com
+2020-01-11T16:46:40.215685+00:00 heroku[run.5469]: State changed from starting to up
+2020-01-11T16:46:40.029662+00:00 heroku[run.5469]: Awaiting client
+2020-01-11T16:46:40.070191+00:00 heroku[run.5469]: Starting process with command `py manage.py migrate`
+2020-01-11T16:46:44.344751+00:00 heroku[run.5469]: State changed from up to complete
+2020-01-11T16:46:44.324702+00:00 heroku[run.5469]: Process exited with status 127
+2020-01-11T16:54:18.095294+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=developerjc.herokuapp.com request_id=e3d79051-de68-43bc-9dc2-4675275b606b fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T16:54:18.342749+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=developerjc.herokuapp.com request_id=dc6f55d9-7e61-4718-878c-47ccce4106a8 fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T17:01:37.146582+00:00 app[api]: Starting process with command `status` by user wako1982133@hotmail.com
+2020-01-11T17:01:45.839099+00:00 heroku[run.7420]: State changed from starting to up
+2020-01-11T17:01:46.081996+00:00 heroku[run.7420]: Awaiting client
+2020-01-11T17:01:46.117737+00:00 heroku[run.7420]: Starting process with command `status`
+2020-01-11T17:01:51.397058+00:00 heroku[run.7420]: State changed from up to complete
+2020-01-11T17:01:51.373687+00:00 heroku[run.7420]: Process exited with status 127
+2020-01-11T17:02:47.712407+00:00 app[api]: Starting process with command `git` by user wako1982133@hotmail.com
+2020-01-11T17:02:54.801315+00:00 heroku[run.4702]: State changed from starting to up
+2020-01-11T17:02:54.764520+00:00 heroku[run.4702]: Awaiting client
+2020-01-11T17:02:54.818561+00:00 heroku[run.4702]: Starting process with command `git`
+2020-01-11T17:02:59.448730+00:00 heroku[run.4702]: State changed from up to complete
+2020-01-11T17:02:59.430236+00:00 heroku[run.4702]: Process exited with status 1
+2020-01-11T20:14:47.979333+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=developerjc.herokuapp.com request_id=d43fb330-87c8-41b9-9387-02a27621194f fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T20:14:48.397950+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=developerjc.herokuapp.com request_id=31d5d032-5ab4-4d56-8856-e68d33f3235e fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T20:16:55.397940+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=developerjc.herokuapp.com request_id=c6348d5f-39a4-460e-9316-cfa18b439010 fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T20:16:55.717814+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=developerjc.herokuapp.com request_id=166e68e5-fed9-4562-b374-3b9a16ad169f fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T20:31:45.655258+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=developerjc.herokuapp.com request_id=b85c8f09-1c81-4dfc-9b76-04fc40681d3a fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T20:31:46.363521+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=developerjc.herokuapp.com request_id=29ba4f0f-0719-45d8-906b-08ef70f1f753 fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T20:32:36.167847+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=developerjc.herokuapp.com request_id=26b75129-d218-4025-86ef-4db6e54b02c9 fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=http
+2020-01-11T20:32:40.544289+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=developerjc.herokuapp.com request_id=20d2adf9-6681-4e51-af96-08fe4fb3e31a fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=http
+2020-01-11T20:37:33.932164+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=developerjc.herokuapp.com request_id=4c18f64f-b868-4b10-bff4-7f21fa4a8ab5 fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T20:37:34.212382+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=developerjc.herokuapp.com request_id=b868c96e-9196-47c2-bdcc-50496d60f9b3 fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T20:42:39.684416+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=developerjc.herokuapp.com request_id=8be31e0e-421a-47a8-a7e3-3758b79c8747 fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T20:42:40.249694+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=developerjc.herokuapp.com request_id=745530a1-b307-42c2-a028-3bb03461be26 fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=https
+2020-01-11T20:48:33.348939+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=developerjc.herokuapp.com request_id=1c329009-f0b7-4174-9e59-98e1419dd7ab fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=http
+2020-01-11T20:48:33.609299+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=developerjc.herokuapp.com request_id=3193a979-b4c2-40a8-9691-a343a6ea807f fwd="187.189.198.71" dyno= connect= service= status=503 bytes= protocol=http
