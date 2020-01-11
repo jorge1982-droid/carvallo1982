@@ -5,15 +5,11 @@ from django.db.models import Q
 from django.core.paginator import Paginator
 
 
-def home(request):
-    r = requests.get('http://httpbin.org/status/418')
-    print(r.text)
-    return HttpResponse('<pre>' + r.text + '</pre>')
 
-#def home(request):
-    #queryset=request.GET.get("buscar") # creacion de busqueda en la barra de busqueda
-    #print(queryset)
-    #posts=Post.objects.filter(estado=True)# es para referenciar  el post en el index oen la plantilla
+def home(request):
+    queryset=request.GET.get("buscar") # creacion de busqueda en la barra de busqueda
+    print(queryset)
+    posts=Post.objects.filter(estado=True)# es para referenciar  el post en el index oen la plantilla
 
     if queryset:
         posts=Post.objects.filter(
